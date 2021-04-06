@@ -63,11 +63,11 @@ public class File {
         this.size = size;
     }
 
-    public com.example.springDataStorage.Models.Folder getFolder() {
+    public Folder getFolder() {
         return folder;
     }
 
-    public void setFolder(com.example.springDataStorage.Models.Folder folder) {
+    public void setFolder(Folder folder) {
         this.folder = folder;
     }
 }
